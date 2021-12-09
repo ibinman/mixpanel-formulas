@@ -1,0 +1,49 @@
+
+IFS(
+  "7.0" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 7",
+  "9" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 9",
+  "10" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 10",
+  "11" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 11",
+  "12" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 12",
+  "13.4" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "13.5" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "13.7" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "14.0" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "14.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.2" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.3" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.4" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.5" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.6" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.7" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.8" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "15.0" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 15",
+  "15.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 15",
+  "15.2" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 15",
+  "14.8.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "15.0.2" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 15",
+  "14.7.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "15.0.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 15",
+  "14.4.2" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.5.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.4.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "14.2.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "13.5.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "8.0.0" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 8",
+  "13.3.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "13.6.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "14.0.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 14",
+  "15.1.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 15",
+  "8.1.0" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 8",
+  "13.4.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+  "6.0.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 6",
+  "7.1.1" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 7",
+  "13.1.2" in @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@, "iOS 13",
+
+
+  // Since this last case is always TRUE, if none of the above
+  // conditions are met, this formula will evaluate to the property
+  // selected here
+  TRUE, @"""{"label":"OS Version","propertyDefaultType":"string","resourceType":"event","type":"string","value":"$os_version"}"""@
+)
+
